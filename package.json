@@ -1,0 +1,31 @@
+{
+  "name": "bamzonstorefront",
+  "version": "1.0.0",
+  "description": "an Amazon-like storefront CLI app using Node.js & MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronclarkcodes/bamzonStorefront.git"
+  },
+  "keywords": [
+    "nodejs",
+    "amazon",
+    "aaronclarkcodes"
+  ],
+  "author": "Aaron Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronclarkcodes/bamzonStorefront/issues"
+  },
+  "homepage": "https://github.com/aaronclarkcodes/bamzonStorefront#readme",
+  "dependencies": {
+    "easy-table": "^1.1.1",
+    "inquirer": "^5.2.0",
+    "moment": "^2.22.1",
+    "mssql": "^4.1.0",
+    "mysql": "^2.15.0"
+  }
+}
